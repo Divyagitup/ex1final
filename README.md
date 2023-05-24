@@ -123,13 +123,23 @@ Y= A⊕B
 5.	For different input combinations, generate the timing diagram.
 
 ## Program:
+module exp1(a,b,o1,o2,o3,o4,o5,o6,o7);
+input a,b;
+output o1,o2,o3,o4,o5,o6,o7;
+and(o1,a,b);
+or(o2,a,b);
+xor(o3,a,b);
+nand(o4,a,b);
+nor(o5,a,b);
+not(o7,a);
+endmodule 
 
-
-## RTL Schematic:
-
+## RTL Schematic
+<img width="917" alt="exp1 dia" src="https://github.com/Divyagitup/ex1final/assets/134514564/d9d52994-e7de-4c2a-88f2-de0a8142b0cf">
 
 ## Timing Diagram:
 
+<img width="960" alt="exp1 out" src="https://github.com/Divyagitup/ex1final/assets/134514564/b98cc534-1e25-4d47-b21c-1d296f8485b1">
 
 
 

@@ -1,3 +1,5 @@
+Ex no : 1 
+Date:24.03.23 
 # Implementation of Logic Gates using Verilog HDL
 ## Aim
 To implement and to verify the truth table in Verilog HDL for the following logic gates 
